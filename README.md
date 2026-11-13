@@ -1,34 +1,61 @@
-# Awesome-Developer-Sandbox-Testing-Environment
+<div align="center">
 
-## Top Developer Sandbox & Testing Environment Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Developer Sandbox & Testing Environment Ecosystem Banner" width="100%" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Ephemeral Preview Environments, Isolated Sandboxes & Cloud Emulation*  
-**Last updated: March 2026**
+# ⚡ Awesome Developer Sandbox & Testing Environment Ecosystem 🧪
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Developer Sandbox & Testing Environments**. These tools provide isolated, disposable copies of applications and their dependencies—enabling safe testing, feature previews, and sales demos without risking production data or creating conflicts between teams sharing a staging environment.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?style=social&color=white" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?color=blue" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Examples** include Salesforce Sandboxes, Zoho CRM Developer Edition, Okteto, Release.com, Bunnyshell, Uffizzi, LocalStack, and open-source alternatives like fakecloud and Floci (the category leaders).
+**A curated index of top developer sandbox platforms, ephemeral preview environments, cloud emulators, and test environment orchestration tools.**
 
-**Open-source emphasis**: This section highlights every major active project for self-hosted ephemeral environments, open-source cloud emulation, and community-driven sandbox orchestration—ideal for organizations seeking data sovereignty and predictable costs over per-preview SaaS billing. The open-source landscape has shifted significantly: **LocalStack Community Edition is no longer free** (March 2026 change requires auth token), and **fakecloud** (AGPL-3.0) has emerged as the migration target for teams needing commercial-use freedom [citation:4][citation:15].
+*Empowering developers, QA engineers, DevOps practitioners, and platform teams to build safely without touching production.*
 
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
+</div>
 
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+- [📌 Overview & Key Concepts](#-overview--key-concepts)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [💡 Architectural Guide: How to Choose](#-architectural-guide-how-to-choose)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📌 Overview & Key Concepts
+
+This repository tracks premier **SaaS platforms** and **open-source software** across the **Developer Sandbox & Testing Environment** spectrum. 
+
+Modern distributed architectures, microservices, and AI-assisted engineering workflows demand isolated and disposable copies of services, data, and third-party dependencies. These tools solve key enterprise friction points:
+* 🛡️ **Zero Production Risk:** Test schema migrations, breaking changes, and experiments without endangering live user data.
+* ⚡ **Pull-Request Ephemeral Previews:** Spin up an exact, isolated environment automatically on commit and tear it down on merge.
+* 💸 **FinOps & Cloud Cost Optimization:** Replace 24/7 idle staging clusters with on-demand, auto-sleeping sandboxes.
+* ☁️ **High-Fidelity Cloud Emulation:** Mock AWS, GCP, and Azure APIs locally to eliminate per-developer cloud bills and enable offline development loops.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The Test Environment-as-a-Service (TEaaS) and Environments-as-a-Service (EaaS) sector is estimated at **$17.7B to $20B+** globally, projected to reach over **$40B–$60B+ by the early 2030s** at an estimated CAGR of 14%–19%. The sector remains **highly fragmented**, characterized by open-core platforms, specialized startups targeting ephemeral pull-request previews and local cloud emulation, and competing native capabilities offered by hyperscalers and DevOps git-hosts.
 
-## SaaS/Hosted Platforms
+---
+
+## 🏢 SaaS & Hosted Platforms
 
 | Product | Company Size (Valuation / Revenue) | Description | Starting Pricing | Free Tier / Free Trial Limits |
-|---------|------------------------------------|-------------|------------------|-------------------------------|
+|:---|:---|:---|:---|:---|
 | **[Salesforce Sandboxes](https://www.salesforce.com/platform/sandboxes-environments/pricing/)** | ~$180B Market Cap / ~$41.5B Revenue | Four sandbox types: **Developer** (metadata only, included with core CRM licenses), **Developer Pro** (5% of net spend), **Partial Copy** (20% of net spend), **Full Copy** (30% of net spend). Scratch Orgs start at $25/org/month. Base Salesforce CRM Starter Suite begins at $25/user/month. | **Included Free**: 1 to 100 Developer Sandboxes (200 MB test data, daily refresh) bundled per CRM license edition; **Free Trial**: 30-day free trial on Starter Suite. |
 | **[Zoho CRM Developer Edition](https://www.zoho.com.cn/crm/developer/developer-edition.html)** | ~$12.5B Valuation / ~$1.4B Revenue | Dedicated, full-featured development environment for Zoho CRM to test custom modules, Deluge functions, and workflows. Paid production Zoho CRM tiers start at $14/user/month (billed annually) or $20/user/month (monthly). | **Free Forever**: 1 developer user account, up to 5,000 records, 10 MB data storage (strictly isolated for testing/development). |
 | **[LocalStack](https://localstack.cloud/)** | ~$100M–$250M Valuation (~$28.2M Funded) / ~$7M ARR | Local AWS and Snowflake cloud emulator for rapid testing and CI/CD offloading without cloud spend. | **Base Tier**: $39/user/month (AWS emulator, annual billing) or $45/user/month (monthly billing). | **Hobby Plan (Free Forever)**: 30+ core emulated AWS services, non-commercial personal use only, requires account & auth token; **Free Trial**: 45-day free trial for paid tiers. |
@@ -38,37 +65,80 @@ The Test Environment-as-a-Service (TEaaS) and Environments-as-a-Service (EaaS) s
 | **[Uffizzi](https://www.uffizzi.com/)** | ~$10M Valuation (~$2.8M Funded) / ~$2M ARR | Ephemeral environments and internal developer platform providing full-stack preview clusters per pull request with service and database dependencies. | **Pro Plan**: ~$9 to $20/seat/month based on infrastructure deployment model; custom for Dedicated/Enterprise. | **Starter Plan (Free Forever)**: 2 concurrent ephemeral preview environments, unlimited team member accounts, version control integration. |
 | **[Shipyard](https://shipyard.build/pricing/)** | Seed-stage (~$2.3M Funded, Acquired by StackGen) / ~$1M ARR | Automated preview environments and disposable ephemeral stacks for pull requests and AI agents. | **Startup Tier**: $500/month flat rate (includes 3 concurrent Drydock environments; additional Drydocks at $100/month). | **Free Trial**: 30-day free proof-of-concept trial with full feature and integration access (no permanent free tier). |
 
-## Open-Source GitHub Projects
+---
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[fakecloud](https://github.com/faiscadev/fakecloud)** | [![Stars](https://img.shields.io/github/stars/faiscadev/fakecloud?style=social&color=white)](https://github.com/faiscadev/fakecloud/stargazers) | **The AGPL-licensed migration target for LocalStack Community users.** Single binary, **no account, no auth token, no paid tier**. Covers services teams relied on LocalStack Community for, plus RDS, ElastiCache, Cognito User Pools, SES v2, and API Gateway v2 (which moved to LocalStack Pro). **~300ms startup vs ~3s for LocalStack**; ~30 MiB idle memory vs ~150 MiB. **Commercial use free** under AGPL-3.0 [citation:4]. |
-| **[Floci](https://github.com/topics/aws-emulator)** | — | **MIT-licensed AWS emulator, no authentication required.** Free Cognito (which is Pro-only on LocalStack). **Startup measured at 0.012–0.016 seconds**. Newer project (started February 2026, ~1,200 stars as of March 2026)—edge-case compatibility unknown, but functional for CI/CD and commercial local development [citation:15]. |
+## 💻 Open-Source GitHub Projects
 
-### Additional Strong Open-Source Options
+Curated list of self-hosted developer sandboxes, cloud emulators, virtual clusters, and preview orchestration engines. Sorted in descending order of GitHub community stars:
 
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[AWS Innovation Sandbox](https://github.com/aws-samples/aws-innovation-sandbox)** | — | AWS solution for provisioning isolated, self-contained environments for evaluating AWS services and third-party applications. Designed for security professionals and infrastructure teams building proof-of-concepts [citation:11]. |
-
-**Frameworks for building custom systems**: For **AWS emulation** (the most common sandbox need), choose **fakecloud** for AGPL-licensed commercial freedom with a single binary and fast startup, or **Floci** for MIT-licensed Cognito support. For **ephemeral PR environments**, **Okteto** (free for 5 users) provides Kubernetes-native previews, while **Release.com** (100 free hours/month) and **Bunnyshell** (5 free environments) offer hosted alternatives. For **Salesforce-specific sandboxes**, Scratch Orgs at $25/org/month provide disposable CLI-driven environments, while **Zoho CRM Developer Edition** is genuinely free for testing.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Sandbox environments often contain production-like data or credentials; enforce strict data anonymization (Salesforce Data Mask & Seed costs 10% of net spend [citation:12]), network isolation, and automatic teardown policies.
-- **Free tier terms change without notice.** Vercel's Hobby plan tightened deployment retention in October 2026—old deployments beyond 10GB are deleted immediately, and only the last 3 production deployments are kept per project (down from 10) [citation:5]. **LocalStack Community Edition is no longer free for commercial use**—the March 2026 change requires an auth token, and fakecloud is the recommended open-source migration path [citation:4]. **Salesforce sandbox costs scale with net spend**—Full Copy at 30% of net spend can become expensive for large orgs [citation:1]. Always validate current terms against vendor pages before committing.
+| Repository & Link | GitHub Stars | License | Description & Ecosystem Focus |
+|:---|:---:|:---:|:---|
+| **[Daytona](https://github.com/daytonaio/daytona)** | [![Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers) | Apache-2.0 | Open-source development environment manager. Manages automated, standardized dev environments and sandboxes on any infrastructure with a single CLI command. |
+| **[LocalStack](https://github.com/localstack/localstack)** | [![Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers) | Apache-2.0 / Commercial | The pioneer local cloud emulator for AWS. Emulates Lambda, S3, DynamoDB, SQS, and dozens of cloud APIs directly on localhost/CI. |
+| **[Floci](https://github.com/floci-io/floci)** | [![Stars](https://img.shields.io/github/stars/floci-io/floci?style=social&color=white)](https://github.com/floci-io/floci/stargazers) | MIT | Ultra-lightweight, fluffy, and always-free local AWS emulator alternative with sub-20ms cold starts and native authentication-free local testing. |
+| **[Coder](https://github.com/coder/coder)** | [![Stars](https://img.shields.io/github/stars/coder/coder?style=social&color=white)](https://github.com/coder/coder/stargazers) | AGPL-3.0 | Self-hosted remote development environment platform. Provision developer sandboxes via Terraform into Kubernetes, Docker, and multi-cloud VMs. |
+| **[Gitpod](https://github.com/gitpod-io/gitpod)** | [![Stars](https://img.shields.io/github/stars/gitpod-io/gitpod?style=social&color=white)](https://github.com/gitpod-io/gitpod/stargazers) | AGPL-3.0 | Automated cloud development environments natively integrated with GitHub, GitLab, and Bitbucket for instant sandbox workspaces. |
+| **[vcluster (Loft)](https://github.com/loft-sh/vcluster)** | [![Stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers) | Apache-2.0 | Create fully functional, isolated virtual Kubernetes clusters inside a shared host cluster—ideal for multi-tenant developer sandboxes. |
+| **[Moto](https://github.com/getmoto/moto)** | [![Stars](https://img.shields.io/github/stars/getmoto/moto?style=social&color=white)](https://github.com/getmoto/moto/stargazers) | Apache-2.0 | Battle-tested Python library that lets developers mock out AWS services and SDK calls offline in unit tests and local sandboxes. |
+| **[DevSpace](https://github.com/devspace-sh/devspace)** | [![Stars](https://img.shields.io/github/stars/devspace-sh/devspace?style=social&color=white)](https://github.com/devspace-sh/devspace/stargazers) | Apache-2.0 | Client-only developer tool for Kubernetes. Instantly deploys reproducible testing environments and syncs code directly into running containers. |
+| **[Okteto CLI](https://github.com/okteto/okteto)** | [![Stars](https://img.shields.io/github/stars/okteto/okteto?style=social&color=white)](https://github.com/okteto/okteto/stargazers) | Apache-2.0 | CLI for building, deploying, and developing apps in Kubernetes-powered ephemeral environments and remote dev workspaces. |
+| **[fakecloud](https://github.com/faiscadev/fakecloud)** | [![Stars](https://img.shields.io/github/stars/faiscadev/fakecloud?style=social&color=white)](https://github.com/faiscadev/fakecloud/stargazers) | AGPL-3.0 | Zero-auth, single-binary local cloud emulator for AWS. Fast ~300ms boot time, low memory footprint (~30 MiB), and free commercial usage. |
+| **[Uffizzi Core](https://github.com/UffizziCloud/uffizzi)** | [![Stars](https://img.shields.io/github/stars/UffizziCloud/uffizzi?style=social&color=white)](https://github.com/UffizziCloud/uffizzi/stargazers) | Apache-2.0 | Self-serve internal developer platform and ephemeral preview environment engine built on virtual Kubernetes clusters. |
+| **[AWS Innovation Sandbox](https://github.com/aws-samples/aws-innovation-sandbox)** | [![Stars](https://img.shields.io/github/stars/aws-samples/aws-innovation-sandbox?style=social&color=white)](https://github.com/aws-samples/aws-innovation-sandbox/stargazers) | MIT-0 | AWS solution for automated vending of clean, isolated AWS accounts with cost controls, policy guardrails, and auto-teardown. |
 
 ---
 
-**Made for developers, platform engineers, QA teams, and organizations building safe testing infrastructure.**  
-Let's make developer sandboxes and testing environments more open, ephemeral, and cost-predictable.
+## 💡 Architectural Guide: How to Choose
+
+* 🚀 **For Ephemeral PR Previews (Full-Stack Applications):**  
+  Choose **Bunnyshell** or **Release.com** for managed turnkey SaaS; choose **Okteto** or **vcluster** for Kubernetes-native infrastructure; choose **Uffizzi** for virtual clusters.
+* ☁️ **For Local AWS Cloud Emulation & Offline CI:**  
+  Choose **LocalStack** for comprehensive AWS API coverage; choose **fakecloud** or **Floci** for lightweight zero-auth single-binary alternatives; choose **Moto** for embedded Python test fixtures.
+* 💻 **For Remote Workspaces & Cloud Developer Environments (CDEs):**  
+  Choose **Daytona** for multi-cloud dev environments or **Coder** / **Gitpod** for infrastructure-as-code dev environments.
+* 🏢 **For CRM & Enterprise Sandbox Workflows:**  
+  Use **Salesforce Scratch Orgs** for disposable CLI testing; use **Zoho CRM Developer Edition** for sandbox prototyping.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome and appreciated! To add a new platform or update existing metrics:
+
+1. 🍴 Fork the repository.
+2. 📝 Update `README.md` following the tabular format and verified pricing/stargazer conventions.
+3. 🔗 Ensure all URLs, GitHub links, and star badges point accurately to official sources.
+4. 🚀 Submit a Pull Request with a brief summary of additions or updates.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated directory helpful for navigating developer sandboxes, cloud emulators, and ephemeral testing environments, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork & Share** with your developer and DevOps communities.
+- ☕ **Buy me a coffee & support ongoing research**: [**Sponsor Dashboard on GitHub**](https://github.com/sponsors/ishandutta2007)
+
+*Thank you for supporting open-source software and developer productivity!*
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an independent, community-curated directory — not an endorsement of any listed vendor or platform.
+- Sandbox environments often handle sensitive metadata or sanitized data; always implement strict data anonymization, credential scrubbing, and automatic teardown policies.
+- Free tier limits and commercial policies change periodically. Always verify terms with official vendor documentation before committing production workloads.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for developers, platform engineers, and QA teams.</b><br />
+  <sub>Empowering faster, safer, and cost-predictable developer testing workflows.</sub>
+</div>
