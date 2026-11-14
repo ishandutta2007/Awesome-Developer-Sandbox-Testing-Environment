@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment?color=blue" alt="Open Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Developer-Sandbox-Testing-Environment/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
@@ -71,7 +71,7 @@ The Test Environment-as-a-Service (TEaaS) and Environments-as-a-Service (EaaS) s
 
 Curated list of self-hosted developer sandboxes, cloud emulators, virtual clusters, and preview orchestration engines. Sorted in descending order of GitHub community stars:
 
-| Repository & Link | GitHub Stars | License | Description & Ecosystem Focus |
+| Repository & Link | GitHub_Stars | License | Description & Ecosystem Focus |
 |:---|:---:|:---:|:---|
 | **[Daytona](https://github.com/daytonaio/daytona)** | [![Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers) | Apache-2.0 | Open-source development environment manager. Manages automated, standardized dev environments and sandboxes on any infrastructure with a single CLI command. |
 | **[LocalStack](https://github.com/localstack/localstack)** | [![Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers) | Apache-2.0 / Commercial | The pioneer local cloud emulator for AWS. Emulates Lambda, S3, DynamoDB, SQS, and dozens of cloud APIs directly on localhost/CI. |
@@ -107,7 +107,7 @@ Contributions are welcome and appreciated! To add a new platform or update exist
 
 1. 🍴 Fork the repository.
 2. 📝 Update `README.md` following the tabular format and verified pricing/stargazer conventions.
-3. 🔗 Ensure all URLs, GitHub links, and star badges point accurately to official sources.
+3. 🔗 Ensure all URLs, GitHub links, and Stars_Badges point accurately to official sources.
 4. 🚀 Submit a Pull Request with a brief summary of additions or updates.
 
 ---
